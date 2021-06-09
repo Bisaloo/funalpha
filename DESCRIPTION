@@ -10,7 +10,7 @@ Authors@R: c(
     person(given = "Matthias",
            family = "Grenié",
            role = c("cph"),
-           comment = "co-author of the code copy-paster from fundiversity")
+           comment = "co-author of the code copy-pasted from fundiversity")
     )
 Description: Provides an interface inspired from the fundiversity package to 
     compute functional richness with alpha-shapes as described in Gruson (2020)
