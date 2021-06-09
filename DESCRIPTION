@@ -1,5 +1,5 @@
-Package:
-Title: What the Package Does (One Line, Title Case)
+Package: funalpha
+Title: Compute Functional Diversity with Alpha-Shapes
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Hugo",
@@ -7,14 +7,20 @@ Authors@R:
            role = c("aut", "cre", "cph"),
            email = "hugo.gruson+R@normalesup.org",
            comment = c(ORCID = "0000-0002-4094-1476"))
-Description: What the package does (one paragraph).
+Description: Provides an interface inspired from the fundiversity package to 
+    compute functional richness with alpha-shapes as described in Gruson (2020)
+    <doi:10.1111/2041-210X.13398>.
 License: GPL (>= 3)
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.1.9001
+Imports:
+    alphashape3d,
+    fundiversity,
+    future.apply
 Suggests: 
     knitr,
     rmarkdown

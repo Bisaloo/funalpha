@@ -18,17 +18,25 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
+This package provides an interface inspired from the 
+[fundiversity](https://cran.r-project.org/package=fundiversity) package to 
+compute functional richness with alpha-shapes as described in 
+[Gruson (2020)](https://doi.org/10.1111/2041-210X.13398).
+
 ## Installation
 
 You can the latest version of this package from GitHub with:
 
 ```{r, eval = FALSE}
 # install.packages("remotes")
-remotes::install_github("")
+remotes::install_github("bisaloo/funalpha")
 ```
 
 ## Usage
 
 ```{r example}
-library()
+library(funalpha)
+data("traits_birds", package = "fundiversity")
+
+fa_fric_ashape(traits_birds[, -1])
 ```
