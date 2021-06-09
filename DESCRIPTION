@@ -26,7 +26,3 @@ Imports:
     alphashape3d,
     fundiversity,
     future.apply
-Suggests: 
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
