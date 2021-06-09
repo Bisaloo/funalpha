@@ -4,6 +4,8 @@
 # funalpha
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Bisaloo/funalpha/workflows/R-CMD-check/badge.svg)](https://github.com/Bisaloo/funalpha/actions)
 <!-- badges: end -->
 
 This package provides an interface inspired from the
