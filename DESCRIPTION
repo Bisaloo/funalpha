@@ -1,12 +1,17 @@
 Package: funalpha
 Title: Compute Functional Diversity with Alpha-Shapes
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R: c(
     person(given = "Hugo",
            family = "Gruson",
            role = c("aut", "cre", "cph"),
            email = "hugo.gruson+R@normalesup.org",
-           comment = c(ORCID = "0000-0002-4094-1476"))
+           comment = c(ORCID = "0000-0002-4094-1476"),
+    person(given = "Matthias",
+           family = "Grenié",
+           role = c("cph"),
+           comment = "co-author of the code copy-paster from fundiversity")
+    )
 Description: Provides an interface inspired from the fundiversity package to 
     compute functional richness with alpha-shapes as described in Gruson (2020)
     <doi:10.1111/2041-210X.13398>.
